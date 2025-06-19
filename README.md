@@ -2,10 +2,16 @@
 ```markdown
 # 🤖 FUTURE_ML_03 – Customer Support RAG Chatbot
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Flask](https://img.shields.io/badge/Flask-WebApp-lightgrey)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+**🔍 Customer Support RAG Chatbot (Task 3 - FUTURE\_ML\_03)**
+This project is a Retrieval-Augmented Generation (RAG)-based chatbot designed to handle customer support queries using a hybrid approach:
+
+* 🔹 **Retriever**: Uses TF-IDF and Nearest Neighbors to fetch relevant FAQs
+* 🔹 **Generator**: Uses Hugging Face's `flan-T5-small` to generate natural language responses
+* 🔹 **Interface**: Built with Flask for user interaction and Streamlit for analytics
+
+It provides an intelligent support experience with real-time insights into common queries and usage patterns.
+
+
 
 This project is **Task 3** for the FUTURE Machine Learning Internship.
 
@@ -129,7 +135,7 @@ streamlit run dashboard_app.py
 ## 🙌 Author
 
 **Ayaan Shaheer**
-Connect on [LinkedIn]((https://linkedin.com/in/ayaan-shaheer-74a087230))
+Connect on [LinkedIn](https://linkedin.com/in/ayaan-shaheer-74a087230)
 GitHub: [@AyaanShaheer](https://github.com/AyaanShaheer)
 Portfolio Website: [Portfolio](https://chatprofolio.vercel.app/profile/ayaanshaheer)
 
